@@ -1,0 +1,16 @@
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        return ( sum(nums,target));
+    }
+    public static int [] sum (int [] ar, int target){
+        for (int k=0;k<ar.length;k++){
+            for(int f=k+1;f<ar.length;f++){
+            int add= ar[k]+ar[f];
+            if (add==target){
+                return new int [] {k,f}; 
+            }
+            }
+        }
+        return new int[] {};
+    }
+}
