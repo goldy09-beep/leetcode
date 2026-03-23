@@ -1,6 +1,6 @@
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        return ( sum(nums,target));
+    public int[] twoSum(int[] nums, int tar) {
+        return ( sum(nums,tar));
     }
     public static int [] sum (int [] ar, int target){
         for (int k=0;k<ar.length;k++){
